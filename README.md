@@ -1,2 +1,3 @@
-## calc
-#trying to make calculator to learn programing more 
+## calculator project
+
+trying to make calculator to learn programing more 
