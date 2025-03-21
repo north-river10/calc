@@ -1,5 +1,37 @@
 font-weight:normal;
+.class { font-family: Open Sans }
 body {
   padding: 0;
   margin:0;
-  background: linear-gradient()
+  background: linear-gradient(to right, 00AAFF,00FF6C);
+}
+
+.calculator-grid{
+  display:grid;
+  justify-content:center;
+  align-content: center;
+  min-height: 100vh;
+  grid-template-colums: repeat(4,100px)
+  grid-template-row: minmax(120px,auto)repeat(5,100px)
+
+}
+.calculator-grid>button{
+  cursor: pointer;
+  font-size 2rem;
+  border:1px solid  white
+  background-color: rgba(255,255,255,.75)
+}
+
+.calculator-grid> button:hover{
+  background-color:rgba(255,255,255,.9);
+}
+
+.span-two{
+  grid-column: span 2;
+}
+
+.output{
+  grid-column 1/-1;
+  background-color: rgba(0,0,0,.75)
+}
+
